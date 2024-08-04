@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+   text-align: left;
+   height: 850px;
+   padding-top: 5%;
+   padding-left: 35%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   background-color: black;
+   width: 100%;
+   color: white;
+   padding-bottom: 4%;
+   
+
+}
+.name {
+    font-size: 90px;
+    padding-left: 60px;
+}
+
+.portfolio-title {
+    font-size: 35px;
+    padding-left: 100px;
+}
+
+.navigation{
+    padding-top: 90px;
+    padding-right: 66%;  
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:white;
+}
+a:visited {
+    color: white;
+}
+
+
+
+#AboutMe {
+    text-align: justify;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    height: 600px;
+    padding-right: 45%;
+    font-size: 40px;
+    word-spacing: 0px;
+    display: inline-block;
+    height: 700px;
+    
+}
+
+.p1 {
+    font-size: 35px;
+    word-spacing: -1px;
+}
+
+#experience-title{
+    font-size: 60px;
+    text-align: center;
+}
+#experience{
+    height: 900px;
+    padding-bottom: 8%;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding-left: 120px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    outline: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 5px 10px gray;
+    height: 600px;
+  }
+
+  .job-titles{
+    font-size: 24px;
+  }
+  .job-info {
+    font-size: 18px;
+    margin: 8px;
+  }
+
+  #resume-bullets {
+    text-align: left;
+    padding-top: 5px;
+  }
+
+  li.list-resume {
+    font-size: 18px;
+    margin: 6px;
+  }
+
+  .Obsidian{
+    margin: 8px;
+  }
+
+
+
+#skills {
+    height: 900px;
+    padding-bottom: 5%;
+}
+
+#skill-title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.column-skill {
+    float: left;
+    width: 25%;
+    padding-left: 340px;
+  }
+  
+  .card-skill {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    outline: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 5px 10px gray;
+    height: 450px;
+  }
+
+
+#education{
+    height: 700px;
+}
+
+#education-title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.column-education {
+    float: left;
+    width: 25%;
+    padding-left: 340px;
+  }
+  
+  .card-education {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    outline: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 5px 10px gray;
+    height: 450px;
+  }
+
+  
+  #education-bullets {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+
+  .cert-title{
+    font-size: 25px;
+    text-align: center
+}
+
+
+  li.list-cert{
+    font-size: 20px;
+    padding: 8px;
+    list-style-type: none;
+}
+
+#skill-bullets{
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 70px;
+}
+
+li.list-skill{
+    font-size: 20px;
+    padding: 6px;
+    list-style-type: none;
+}
+
+.skill-title{
+    font-size: 24px;
+}
+
+
+
+li.list1 {
+    margin: 0;
+}
+
+li.list1::marker {
+    color: rgb(8, 38, 74);
+  } 
+
+  li.list2::marker {
+    color: rgb(7, 73, 34);
+  } 
+
+
+
+  
+#footer {
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
